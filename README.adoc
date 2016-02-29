@@ -1,0 +1,3 @@
+= Alpine with mysql client
+
+base image for apps that need the mysql client
