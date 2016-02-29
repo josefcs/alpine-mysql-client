@@ -1,3 +1,8 @@
 = Alpine with mysql client
 
 base image for apps that need the mysql client
+
+== Usage
+
+I use it for regular backups of a db. I might be extending it with a ssh-client and rsync in order to have off-site backup included.
+See `docker-alpine-templates/cron` for how to use it in conjunction with cron.
